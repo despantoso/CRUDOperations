@@ -1,0 +1,29 @@
+{
+    "array": [
+        {
+            "name": "Lionel Messi",
+            "salary": "$92 Million",
+            "sport": "Soccer" 
+        },
+        {
+            "name": "Cristiano Ronaldo",
+            "salary": "$65 Million", 
+            "sport": "Soccer"
+        },
+        {
+            "name": "Neymar Jr",
+            "salary": "$75 Million", 
+            "sport": "Soccer"
+        },
+        {
+            "name": "Canelo Alvarez",
+            "salary": "$92 Million",
+            "sport": "Boxing"
+        },
+        {
+            "name": "Roger Federer",
+            "salary": "$7.4 Million",
+            "sport": "Tennis"
+        }
+    ]
+}
