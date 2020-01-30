@@ -1,29 +1,29 @@
 {
     "array": [
         {
-            "name": "Lionel Messi",
-            "salary": "$92 Million",
-            "sport": "Soccer" 
+            "name": "Russell Wilson",
+            "salary": "$80.5 Million",
+            "sport": "Football" 
         },
         {
-            "name": "Cristiano Ronaldo",
-            "salary": "$65 Million", 
+            "name": "Aaron Rodgers",
+            "salary": "$80.3 Million", 
+            "sport": "Football"
+        },
+        {
+            "name": "LeBron James",
+            "salary": "$36 Million", 
             "sport": "Soccer"
         },
         {
-            "name": "Neymar Jr",
-            "salary": "$75 Million", 
-            "sport": "Soccer"
-        },
-        {
-            "name": "Canelo Alvarez",
-            "salary": "$92 Million",
-            "sport": "Boxing"
+            "name": "Stephen Curry",
+            "salary": "$37.8 Million",
+            "sport": "Basketball"
         },
         {
             "name": "Roger Federer",
-            "salary": "$7.4 Million",
-            "sport": "Tennis"
+            "salary": "$30.4 Million",
+            "sport": "Basketball"
         }
     ]
 }

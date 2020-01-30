@@ -27,4 +27,4 @@ athletesSchema.pre('save', function(next){
 //Instantiation of Mongooose model
 var Athletes = mongoose.model('Athletes', athletesSchema);
 
-module.exorts = Athletes;
+module.exports = Athletes;
