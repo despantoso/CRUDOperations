@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './genericsports.jpg';
-import './App.css';
+import React, { Component } from "react";
+import logo from "./genericsports.jpg";
+import { Route, Switch, Link } from "react-router-dom";
+import "./App.css";
+import Athlete from "./Athlete";
+import Home from "./Home"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          
-        </p>
-        <a
-          className="App-link"
-          href="https://www.forbes.com/athletes/#fa0cb0b55ae5"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Forbes Top 10 Paid Atheletes
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    const App = () => (
+          <Switch>
+            <Route exact path="/" component={Home}></Route>
+            <Route exact path="/Athletes" component={Athlete}></Route>
+          </Switch>
+    );
+    return <App />;
+  }
 }
 
 export default App;
